@@ -1,0 +1,28 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  header, nav, main, aside, footer {
+    padding: 20px;
+  }
+  header {
+    background-color: lightgrey;
+  }
+  nav {
+    background-color: grey;
+    color: white;
+  }
+  main {
+    float: left;
+    width: 70%;
+  }
+  aside {
+     float:right; 
+     width: calc(30% -40px);
+     background-color:#f2f2f2; 
+  }
+  footer{
+     clear:both; 
+     background-color:black; 
+     color:white; 
+  }

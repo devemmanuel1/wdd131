@@ -26,7 +26,7 @@ body, html {
   }
   aside {
      float:right; 
-     width: calc(30% -40px);
+     width: 260px;
      background-color:#f2f2f2; 
   }
   footer{

@@ -1,12 +1,15 @@
+
 body {
-    font-family: 'Arial', sans-serif; 
+    font-family: "Roboto", sans-serif;
     background-color: orange;
+    font-weight: 400;
 }
  
  header {
-    background-color: navy;
-    color: white;
+    background-color: white;
+    color: navy;
     padding: 10px;
+    font-weight: 400;
  }
 
  nav {
@@ -37,7 +40,7 @@ body {
  }
  
  .about-me h2 {
-     color: blue;
+     color: white;
  }
  
  .about-me p {

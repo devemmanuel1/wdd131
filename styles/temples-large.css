@@ -1,0 +1,25 @@
+@media (min-width: 37.5em) {
+
+    
+    header {
+        display: flex;
+        padding: 1rem;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: var(--primary-color);
+    }
+
+	#menu {
+		display: none; 
+    }
+
+	.navigation {
+        display:flex;
+		flex-direction: row;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+}

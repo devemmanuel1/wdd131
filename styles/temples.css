@@ -54,9 +54,10 @@ footer {
 }
 
 .navigation a:hover {
-	background-color: #bbb;
-	color: #333;
+	background-color: gray;
+	color: #ff6600;
 	font-weight: 700;
+    transition: all 0.3s ease;
 }
 
 .open, .open a {

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WDD 131 - Dynamic Web Fundamentals - Emmanuel Onyenatuluchi Ezechukwu</title>
+
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Emmanuel Onyenatuluchi Ezechukwu's Place page">
+
+    <meta name="author" content="Emmanuel Onyenatuluchi Ezechukwu">
+
+    <link rel="stylesheet" href="styles/place.css">
+
+    <script src="scripts/" defer ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+        <h1>Enugu</h1>
+
+    </header>
+    <main>
+        <picture>
+
+            <source srcset="./images/enugu.jpeg" media="(max-width: 550px)">
+
+            <source srcset="./images/enugu2" media="(max-width: 950px)">
+
+            <img src="./images/enugu2.jpeg" alt="Enugu stadium">
+
+        </picture>
+        <section class="summary dataSummary">
+            <h3>Data</h3>
+            <div><span class="summaryTitle">Area</span><span>:</span><span>214.673 mi²</span></div>
+
+            <div><span class="summaryTitle">Population</span><span>:</span><span>876,000</span></div>
+
+            <div><span class="summaryTitle">Capital</span><span>:</span><span>Enugu</span></div>
+
+            <div><span class="summaryTitle">Language</span><span>:</span><span>English</span></div>
+
+            <div><span class="summaryTitle">Currency</span><span>:</span><span>Naira</span></div>
+
+            <div><span class="summaryTitle">Timezone</span><span>:</span><span>GMT+1</span></div>
+
+            <div><span class="summaryTitle">Calling Code</span><span>:</span><span>+042</span></div>
+
+            <div><span class="summaryTitle">Internet TLD</span><span>:</span><span>.ng</span></div>
+
+        </section>
+        <section class="summary weatherSummary">
+
+            <h3 class="weather">
+
+                Weather
+            </h3>
+            <div><span class="summaryTitle">Temperature</span><span>:</span><span id="temperature">28°C</span></div>
+
+            <div><span class="summaryTitle">Condition</span><span>:</span> <span>Cloudy</span></div>
+
+            <div><span class="summaryTitle">Wind Speed</span><span>:</span><span id="wind">10Km/h</span></div>
+
+            <div><span class="summaryTitle">Wind Chill</span><span>:</span><span id="chillWind">°C</span></div>
+
+        </section>
+    </main>
+    <footer>
+        <p>
+            <span> ©</span>
+
+            <span id="currentyear"></span>
+
+            <span>❤ Emmanuel Onyenatuluchi Ezechukwu ❤</span>
+
+            <span>Enugu, Nigeria.</span>
+            
+        </p>
+        <p id="lastModified">
+
+        </p>
+    </footer>
+</body>
+
+</html>

@@ -52,7 +52,7 @@ main > picture > img{
 footer {
     text-align: center;
     padding: 2rem;
-    background-color: var(--primary-color);
+    background-color: burlywood;
 }
 
 @media (min-width: 32.5em){

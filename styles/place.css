@@ -1,13 +1,25 @@
+:root {
+    --main-color: burlywood;
+  }
+  
+  header {
+    background-color: var(--main-color);
+  }
+  
+  footer {
+    background-color: var(--main-color);
+  }
+
 * {
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
 
-header {
+/* header {
     background-color: burlywood;
 
-}
+} */
 
 h1 {
     text-align: center;
@@ -52,7 +64,7 @@ main > picture > img{
 footer {
     text-align: center;
     padding: 2rem;
-    background-color: burlywood;
+    /* background-color: burlywood; */
 }
 
 @media (min-width: 32.5em){
@@ -83,8 +95,3 @@ footer {
     }
     
 }
-
-:root {
-    --main-color: #007bff;
-    --font-size: 16px;
-  }

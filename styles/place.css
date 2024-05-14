@@ -26,19 +26,6 @@ h1 {
     padding: 2rem;
 }
 
-@media screen and (max-width: 768px) {
-    .imagesContainer figure {
-        flex-basis: calc(50% - 10px);
-    }
-}
-
-@media screen and (max-width: 32.5em) {
-    .imagesContainer figure {
-        flex-basis: 100%; 
-    }
-}
-
-
 main {
     width: 100%;
 }

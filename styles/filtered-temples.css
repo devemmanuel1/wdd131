@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    background-color:  burlywood;
+}
+
+header>div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color:  burlywood;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: white;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+}
+
+.navigation {
+	display: none;
+	flex-direction: column;
+	list-style: none;
+	background-color: transparent;
+	color: #fff;
+}
+
+.navigation a {
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+.navigation a:hover {
+	background-color: gray;
+	color: #ff6600;
+	font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.open, .open a {
+	display: block;
+}
+
+main {
+    padding: 1rem;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+.imagesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imagesContainer figure {
+    flex: 0 1 calc(33.333% - 10px); 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.imagesContainer figure img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .imagesContainer figure {
+        flex-basis: calc(50% - 10px);
+    }
+}
+
+@media screen and (max-width: 32.5em) {
+    .imagesContainer figure {
+        flex-basis: 100%; 
+    }
+}
+
+.hambutton {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: white;
+    position: absolute;
+    top: 1rem;
+    right: 45rem;
+    visibility: visible;
+    display: block;
+}
+
+.hambutton::before {
+    content: "☰";
+}
+
+.hambutton.open::before {
+    content: "✔";
+}
+
+#nav {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;        
+}
+
+#nav.open {
+    display: block;
+}
+
+#nav.open a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgba(21, 55, 55, 0.8);
+    /* background-color: #153737; */
+}  

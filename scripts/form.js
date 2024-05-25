@@ -6,28 +6,28 @@ let reviewCount = localStorage.getItem("reviewCount") || 0;
 
 const products = [
     {
-      id: "fc-1888",
-      name: "flux capacitor",
+      id: "Mf-01-27",
+      name: "Dangote Cement",
       averageRating: 4.5
     },
     {
-      id: "fc-2050",
-      name: "power laces",
+      id: "mf- 01-30",
+      name: "Superset Cement",
       averageRating: 4.7
     },
     {
-      id: "fs-1987",
-      name: "time circuits",
+      id: "mf- 01-90",
+      name: "BUA Cement",
       averageRating: 3.5
     },
     {
-      id: "ac-2000",
-      name: "low voltage reactor",
+      id: "mf- 01-76",
+      name: "Unicem Cement",
       averageRating: 3.9
     },
     {
-      id: "jj-1969",
-      name: "warp equalizer",
+      id: "mf- 01-210",
+      name: "POP Cement",
       averageRating: 5.0
     }
 ];

@@ -27,7 +27,7 @@ const temples = [
       imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
     },
-    {
+    { 
       templeName: "Payson Utah",
       location: "Payson, Utah, United States",
       dedicated: "2015, June, 7",

@@ -28,6 +28,11 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    background-color: #18BC9C;
+    color: #ff6600;
+}
+
 main {
     padding: 2rem;
 }

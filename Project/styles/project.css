@@ -72,6 +72,22 @@ h2{
     display: inline;
 }
 
+img {
+    display: block;
+    background-color: black;
+    animation: fade 5s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 form button {
     background-color: #18BC9C;
     border: none;
@@ -107,7 +123,7 @@ form button {
     border-radius: 50% 50% 0% 0%;
 }
 
-#house{
+/* #house{
     position: relative;
     border-bottom: 20px solid black;
     border-left: 20px solid transparent;
@@ -128,7 +144,7 @@ form button {
 #house::after{
     transform: rotateY(180deg);
     left: -20px;
-}
+} */
 
 @keyframes rotate {
     to {transform: rotate(365);}

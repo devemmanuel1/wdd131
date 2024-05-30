@@ -146,6 +146,6 @@ form button {
     left: -20px;
 } */
 
-@keyframes rotate {
+/* @keyframes rotate {
     to {transform: rotate(365);}
-}
+} */
